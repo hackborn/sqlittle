@@ -3,7 +3,7 @@ package sqlittle
 import (
 	"errors"
 
-	sdb "github.com/alicebob/sqlittle/db"
+	sdb "github.com/hackborn/sqlittle/db"
 )
 
 func select_(db *sdb.Database, s *sdb.Schema, cb RowCB, columns []string) error {

@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alicebob/sqlittle/sql"
 	"github.com/andreyvit/diff"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/hackborn/sqlittle/sql"
 )
 
 func init() {

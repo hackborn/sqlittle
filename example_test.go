@@ -3,7 +3,7 @@ package sqlittle_test
 import (
 	"fmt"
 
-	"github.com/alicebob/sqlittle"
+	"github.com/hackborn/sqlittle"
 )
 
 // Basic SELECT

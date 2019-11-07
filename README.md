@@ -1,3 +1,7 @@
+## FORK
+
+Quick fork to build for windows. File locking is not supported.
+
 Package SQLittle provides pure Go, read-only, access to SQLite (version 3) database
 files.
 

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	sdb "github.com/alicebob/sqlittle/db"
-	"github.com/alicebob/sqlittle/sql"
+	sdb "github.com/hackborn/sqlittle/db"
+	"github.com/hackborn/sqlittle/sql"
 )
 
 func TestKeys(t *testing.T) {

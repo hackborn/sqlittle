@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/alicebob/sqlittle/sql"
+	"github.com/hackborn/sqlittle/sql"
 )
 
 type Schema struct {

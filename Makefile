@@ -9,7 +9,7 @@ ci:
 	go test -tags ci ./...
 
 bench:
-	go test -bench . github.com/alicebob/sqlittle/db
+	go test -bench . github.com/hackborn/sqlittle/db
 
 format:
 	go fmt
@@ -18,7 +18,7 @@ fuzz:
 	go get -v github.com/dvyukov/go-fuzz/...
 
 	rm -f sqlittle-fuzz.zip
-	go-fuzz-build github.com/alicebob/sqlittle/db
+	go-fuzz-build github.com/hackborn/sqlittle/db
 	mkdir -p workdir
 	cp -r corpus workdir
 	go-fuzz -bin=sqlittle-fuzz.zip -workdir=workdir
